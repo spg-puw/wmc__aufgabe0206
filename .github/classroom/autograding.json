@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "Aufgabe1/T1",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store normal uebung01'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T2",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store normal uebung02'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T3",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store normal uebung03'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T4",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store normal uebung04'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T5",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store normal uebung05'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T6",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store normal uebung06'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T7",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store normal uebung07'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T8",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store dynamic uebung06'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe1/T9",
+      "setup": "npm install",
+      "run": "npm test -- -t 'Store dynamic uebung07'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe2/T1",
+      "setup": "npm install",
+      "run": "npm test -- -t 'xxxBy main'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe2/T2",
+      "setup": "npm install",
+      "run": "npm test -- -t 'xxxBy minBy'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Aufgabe2/T3",
+      "setup": "npm install",
+      "run": "npm test -- -t 'xxxBy maxBy'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
