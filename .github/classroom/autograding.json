@@ -8,7 +8,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 2
     },
     {
       "name": "Aufgabe1/T2",
@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 2
     },
     {
       "name": "Aufgabe1/T3",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 2
     },
     {
       "name": "Aufgabe1/T4",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 3
     },
     {
       "name": "Aufgabe1/T5",
@@ -48,7 +48,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 3
     },
     {
       "name": "Aufgabe1/T6",
@@ -58,7 +58,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 3
     },
     {
       "name": "Aufgabe1/T7",
@@ -68,7 +68,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 3
     },
     {
       "name": "Aufgabe1/T8",
@@ -78,7 +78,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 4
     },
     {
       "name": "Aufgabe1/T9",
@@ -88,7 +88,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 4
     },
     {
       "name": "Aufgabe2/T1",
@@ -98,7 +98,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 4
     },
     {
       "name": "Aufgabe2/T2",
@@ -108,7 +108,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 5
     },
     {
       "name": "Aufgabe2/T3",
@@ -118,7 +118,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 5
     }
   ]
 }
