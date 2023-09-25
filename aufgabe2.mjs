@@ -7,7 +7,7 @@ Array.prototype.maxBy = function (selector) {
 };
 
 
-export const results = [
+const results = [
     { name: "Max", points: 16, grade: 1 },
     { name: "Tobias", points: 14, grade: 1 },
     { name: "Sophie", points: 16, grade: 1 },
@@ -16,7 +16,7 @@ export const results = [
     { name: "Nina", points: 13, grade: 2 },
 ];
 
-export function main() {
+function main() {
     console.log("results.minBy(r => r.points)");
     console.table(results.minBy(r => r.points));
     console.log("results.maxBy(r => r.points)");

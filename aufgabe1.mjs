@@ -1,13 +1,13 @@
 import * as fs from 'fs';
-export const rawdata = fs.readFileSync('stores.json');
-export const data = JSON.parse(rawdata);
+const rawdata = fs.readFileSync('stores.json');
+const data = JSON.parse(rawdata);
 
 // *************************************************************************************************
 // MUSTERBEISPIELE
 // *************************************************************************************************
 
 // Wie viele Stores sind in der Datei?
-export function muster1(data) {
+function muster1(data) {
     // const result = [];
     const result = data.stores.length;
     return result
@@ -16,7 +16,7 @@ export function muster1(data) {
 
 // Welche Produkte sind in der Kategorie Fantastic und haben eine EAN Nummer > als 700000?
 // Gib EAN und den Namen aus.
-export function muster2(data) {
+function muster2(data) {
     // const result = [];
     const result = data.products
         .filter(p => p.productCategory.name == "Fantastic" && p.ean > 700000)
@@ -32,7 +32,7 @@ export function muster2(data) {
 // *************************************************************************************************
 
 // (1) Welche Stores sind in 1050 oder 1110 Wien? Filtere nach der Postleitzahl.
-export function uebung01(data) {
+function uebung01(data) {
     const result = [];
     
     return result;
@@ -40,7 +40,7 @@ export function uebung01(data) {
 
 // (2) In welchen Postleitzahlen existieren Stores? Verwende ein Set zur Entfernung der doppelten
 // Werte.
-export function uebung02(data) {
+function uebung02(data) {
     const result = [];
 
     return result;
@@ -48,7 +48,7 @@ export function uebung02(data) {
 
 // (3) Erstelle ein Array mit EAN, Name und Kategorie der Produkte, die vor dem 15. Februar 2021
 // hinzugefügt wurden. Hinweis: Du kannst < auch bei Datestrings verwenden.
-export function uebung03(data) {
+function uebung03(data) {
     const result = [];
 
     return result;
@@ -58,7 +58,7 @@ export function uebung03(data) {
 // Die Preise sind im Angebotsarray (offers).
 // Verwende reduce, um den kleineren Wert beim Vergleich zwischen prev und current
 // zurückzugeben. Initialisiere mit Number.MAX_VALUE.
-export function uebung04(data) {
+function uebung04(data) {
     const result = [];
 
     return result;
@@ -69,7 +69,7 @@ export function uebung04(data) {
 // Er liefert alle Arrayelemente als Liste, die Math.min() als Argument verarbeiten kann.
 // Beispiel: Math.min(...[1,2,3])  --> 1
 // Beachte, dass Math.min nur ein Array mit Zahlen verarbeiten kann.
-export function uebung05(data) {
+function uebung05(data) {
     const result = [];
 
     return result;
@@ -81,7 +81,7 @@ export function uebung05(data) {
 // - Projiziere jedes Produkt auf ein JSON Object. Zur Bestimmung des Preises verwende
 //   Math.max bzw. Math.min. Als Argument gehe das Array data.offers mit entsprechender
 //   Filterung durch, um nur das aktuelle Produkt zu berücksichtigen.
-export function uebung06(data) {
+function uebung06(data) {
     const result = [];
 
     return result;
@@ -98,14 +98,14 @@ export function uebung06(data) {
 //   - Projiziere mit map() jeden Key, indem du damit auf grouped zugreifst.
 //   - Der Name ist in jedem Offer einer EAN Nummer gleich. Daher kannst du den Namen des
 //     ersten Elementes verwenden.
-export function uebung07(data) {
+function uebung07(data) {
     const grouped = {};
     const result = [];
 
     return result;
 }
 
-export function main() {
+function main() {
     { // To limit scope of variables.
         const result = muster1(data);
         console.log("Muster: Wie viele Stores sind in der Datei?");
