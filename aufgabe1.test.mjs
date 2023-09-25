@@ -44,19 +44,31 @@ describe('Store normal', () => {
     test("uebung04", () => {
         const reduceFn = import.meta.jest.spyOn(Array.prototype, 'reduce');
         const minFn = import.meta.jest.spyOn(Math, 'min');
+        reduceFn.mockClear();
+        minFn.mockClear();
+
         const r = t.uebung04(t.data);
         expect(r).toBe(361.67);
         expect(reduceFn).toHaveBeenCalled();
         expect(minFn).not.toHaveBeenCalled();
+
+        reduceFn.mockRestore();
+        minFn.mockRestore();
     });
 
     test("uebung05", () => {
         const reduceFn = import.meta.jest.spyOn(Array.prototype, 'reduce');
         const minFn = import.meta.jest.spyOn(Math, 'min');
+        reduceFn.mockClear();
+        minFn.mockClear();
+
         const r = t.uebung05(t.data);
         expect(r).toBe(361.67);
         expect(reduceFn).not.toHaveBeenCalled();
         expect(minFn).toHaveBeenCalled();
+        
+        reduceFn.mockRestore();
+        minFn.mockRestore();
     });
 
     test("uebung06", () => {
