@@ -29,6 +29,7 @@ function main() {
 }
 
 export default { main, results }
-if (import.meta.url.endsWith(process.argv[1])) {
+import { pathToFileURL as _path } from 'url'
+if (import.meta.url === _path(process.argv[1]).href) {
     main();
 }
